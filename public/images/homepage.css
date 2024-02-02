@@ -1,0 +1,215 @@
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #f0f0f0; /* Background color for tablets/small desktops */
+    }
+}
+
+.top-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(20%, auto));
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 40px;    
+  margin-bottom: 20px;
+}
+
+.mage {
+    display: flex;
+    color: #561C24;
+    font-size: 3.5rem;
+    font-weight: bold;
+    grid-row: span 2;
+    
+     
+}
+
+.order {
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    background-color: red;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-duration:  0.3s; 
+    -webkit-box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57);
+    transition-property: box-shadow, transform;
+}
+
+.order:hover, .order:focus, .btn:active {
+    box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.top {
+    color: black;   
+    font-size: 30px;
+    
+}
+.top:hover {
+    color: red;
+    font-size: 30;
+    font-weight: bold;
+    transition: all -0.4s ease-out;
+    transform: scale(1.1);
+}
+
+.imagess {
+    padding: 100px;
+    margin-top: 100px;
+    border: 100px;
+}
+
+.shusii {
+    background-color: #F9F9F9;
+    padding: 100px;
+    border: 20px;
+    
+
+}
+
+.rightdesign {
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
+    left: 52%; 
+    font-size: 50px;
+    font-weight: bold;   
+}
+
+.shu1Order {
+    position: relative;
+    left: 65%; 
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    background-color: red;
+    width: 200px;
+    padding: 0.75rem ;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-duration:  0.3s;
+    -webkit-box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57); 
+    transition-property: box-shadow, transform;
+}
+
+.shu1Order:hover {
+    box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.ramen {
+    position: relative;
+    left: 70%;
+}   
+
+.ram {
+    background-color: #FFFAF4;
+    padding: 100px;
+    border: 20px;
+
+}
+
+.leftdesign {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;   
+}
+
+.ramenorder {
+    position: relative;
+    font-size: 30px;
+    left: 15rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    background-color: red;
+    width: 200px;
+    padding: 0.75rem ;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-duration:  0.3s;
+    -webkit-box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57); 
+    transition-property: box-shadow, transform;
+}
+
+.ramenorder:hover {
+    box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.chicken {
+    background-color: #EEF5FF;
+    padding: 100px;
+    border: 20px;
+}
+
+.bbq {
+    position: relative;
+    left: 65%; 
+}
+
+.barbeque {
+    background-color: #ED2B2A;
+    padding: 100px;
+    border: 20px;
+}
+
+.bbq1 {
+    position: relative;
+    left: 15rem;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    background-color: yellow;
+    width: 200px;
+    padding: 0.75rem ;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition-duration:  0.3s;
+    -webkit-box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57); 
+    transition-property: box-shadow, transform;
+}
+
+.bbq1:hover {
+    box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.57);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.bbqleft {
+    position: relative;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;  
+}
+    

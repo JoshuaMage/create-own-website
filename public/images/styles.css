@@ -1,0 +1,78 @@
+body {
+    background-color: #FEFBF6;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+
+.sub {
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.priCe {
+    font-weight: bold;
+}
+
+.koreanRamen {
+    height: 300px;
+    width: 450px; 
+    border-radius: 8px;
+}
+
+.KoreanChick {
+    height: 300px;
+    width: 450px;
+    border-radius: 8px;
+}
+
+.koreanBbq {
+    height: 300px;
+    width: 450px; 
+    border-radius: 8px;
+}
+
+.narutoeatingRamen {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.girleatingChicken {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.luffyEatingmeat {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.log {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pass {
+    font-weight: bold;
+    font-size: 18px;
+}
+
